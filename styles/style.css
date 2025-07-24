@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+. {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Shared styles*/
+.display-flex {
+  display: flex;
+}
+/*dark-02*/
+.text-gray {
+  color: #424242;
+}
+/*dark-03*/
+.text-light-gray {
+  color: #727272;
+}
+/*orange color*/
+.fresh-flowers {
+  color: rgb(233, 90, 8);
+}
+.main > section {
+  margin-top: 130px;
+}
+/*header styles*/
+
+/*navbar styles*/
+.navbar {
+  justify-content: space-between;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  font-weight: 400;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.banner-right h2 {
+  font-size: 65px;
+}
+.banner-right p {
+  color: #727272;
+}
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* teams and features related styles*/
+.teams {
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 70px;
+}
+.our-features {
+  margin-left: 130px;
+  max-width: 530px;
+}
+.features-title {
+  font-size: 2.8em;
+}
+.Latest {
+  text-align: center;
+  margin-top: 130px;
+}
+.deals-title {
+  font-size: 50px;
+  font-size: 700;
+}
+.Latest p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 22px;
+}
