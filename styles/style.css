@@ -91,3 +91,11 @@
   font-weight: 400;
   font-size: 22px;
 }
+.teams-latest {
+  align-items: center;
+}
+.teams-latest-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fa);
+  gap: 24px;
+}
